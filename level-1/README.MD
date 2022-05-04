@@ -14,6 +14,8 @@ Intended Functionality
 
 4. Run the test with `anchor test`
 
+5. Submit issues to the github repo with a label of "bug" if you've found a bug. Submit an issue with a label of "question" if you have a questions. 
+
 
 ### Resources 
 1. [The Anchor Book](https://book.anchor-lang.com/)
