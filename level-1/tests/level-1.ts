@@ -5,7 +5,7 @@ import { Level1 } from "../target/types/level_1";
 
 describe("level-1", () => {
   // Configure the client to use the local cluster.
-  anchor.setProvider(anchor.Provider.env());
+  const provider = anchor.AnchorProvider.local();
 
   const program = anchor.workspace.Level1 as Program<Level1>;
   const increment = anchor.web3.Keypair.generate();
@@ -15,7 +15,7 @@ describe("level-1", () => {
     const tx = await program.rpc.initialize({
       accounts:{
         myAccountBuffer: increment.publicKey,
-        authority: program.provider.wallet.publicKey,
+        authority: provider.wallet.publicKey,
         systemProgram: anchor.web3.SystemProgram.programId
       },
       signers:[increment]
