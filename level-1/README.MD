@@ -8,6 +8,18 @@ Intended Functionality
 ### Instructions 
 1. `cd` into the level-1 root directory and build the program with `anchor build`
 
-2. Read through the code in lib.rs to see if you find any bugs and then experiment with a few test in level-1.ts. I included some boilerplate code to get your test started. 
+2. Replace the program id in lib.rs and in anchor.toml with the new program id. 
 
-3. Run the test with Anchor Test 
+3. Read through the code in lib.rs to see if you find any bugs and then experiment with a few test in level-1.ts. I included some boilerplate code to get you started. 
+
+4. Run the test with `anchor test`
+
+
+### Resources 
+1. [The Anchor Book](https://book.anchor-lang.com/)
+
+2. [Sealevel attacks](https://github.com/project-serum/sealevel-attacks/tree/master/programs)
+
+3. [Neyodyme's Smart Contract Pitfalls](https://blog.neodyme.io/posts/solana_common_pitfalls)
+
+
