@@ -5,7 +5,7 @@ This is a WIP CTF that I'm creating to help teach frens how to pwn all the thing
 ![](Assets/2022-04-11-14-29-43.png)
 
 
-Start by cloning the repo with `git clone https://github.com/wzrdk3lly/solana-ctf.git`
+Start by cloning the repo with `git clone https://github.com/wzrdk3lly/solanactf.git`
 
 Change directory into level-1 and read the README.MD file to begin. 
 
